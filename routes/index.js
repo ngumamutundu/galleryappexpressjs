@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 const upload = require('../upload');
 const mongoose =require("mongoose");
-const Image = require("./images");
+const Image = require("./image");
 
 router.get('/', (req,res)=>{
    res.render('index');
